@@ -19,9 +19,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberImagePainter
-import com.bawp.jetweatherforecast.utils.formatDate
-import com.bawp.jetweatherforecast.utils.formatDateTime
-import com.bawp.jetweatherforecast.utils.formatDecimals
+import com.example.weatherforecase_may15th.utils.formatDate
+import com.example.weatherforecase_may15th.utils.formatDateTime
+import com.example.weatherforecase_may15th.utils.formatDecimals
 import com.example.weatherforecase_may15th.data_layer.model.WeatherList
 
 

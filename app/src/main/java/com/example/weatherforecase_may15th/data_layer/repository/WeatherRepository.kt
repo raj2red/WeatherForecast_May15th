@@ -1,7 +1,7 @@
 package com.example.weatherforecase_may15th.data_layer.repository
 
 import android.util.Log
-import com.bawp.jetweatherforecast.data.DataOrException
+import com.example.weatherforecase_may15th.data.DataOrException
 import com.example.weatherforecase_may15th.data_layer.model.WeatherPojo
 import com.example.weatherforecase_may15th.domain_layer.network.WeatherAPI
 import javax.inject.Inject

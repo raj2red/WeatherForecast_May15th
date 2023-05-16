@@ -1,6 +1,6 @@
 package com.example.weatherforecase_may15th.domain_layer.network
 
-import com.bawp.jetweatherforecast.utils.Constants
+import com.example.weatherforecase_may15th.utils.Constants
 import com.example.weatherforecase_may15th.data_layer.model.WeatherPojo
 import retrofit2.http.GET
 import retrofit2.http.Query

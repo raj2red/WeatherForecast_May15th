@@ -1,6 +1,6 @@
 package com.example.weatherforecase_may15th.domain_layer.di
 
-import com.bawp.jetweatherforecast.utils.Constants
+import com.example.weatherforecase_may15th.utils.Constants
 import com.example.weatherforecase_may15th.domain_layer.network.WeatherAPI
 import dagger.Module
 import dagger.Provides

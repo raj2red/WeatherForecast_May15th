@@ -1,5 +1,6 @@
 package com.example.weatherforecase_may15th.presentation_layer.views
 
+import android.app.Activity
 import android.view.animation.OvershootInterpolator
 import androidx.compose.animation.Animatable
 import androidx.compose.animation.core.tween
@@ -29,11 +30,14 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.weatherforecase_may15th.navigation.NavControl
 import com.example.weatherforecase_may15th.navigation.NavigationScreens
+import com.example.weatherforecase_may15th.utils.getSharedPreference
 import kotlinx.coroutines.delay
 
 @Composable
-fun SplashScreen(navController: NavController) {
-    val defaultCity = "San Diego"
+fun SplashScreen(navController: NavController, activity: Activity) {
+
+    //Fetching previous data
+    val defaultCity = getSharedPreference(activity)
 
     val scale = remember {
         androidx.compose.animation.core.Animatable(0f)
