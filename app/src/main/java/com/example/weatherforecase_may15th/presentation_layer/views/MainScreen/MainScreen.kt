@@ -32,7 +32,7 @@ fun MainScreen(
     mainViewModel: MainViewModel = hiltViewModel(),
     city: String?
 ) {
-    val curCity: String = if (city!!.isBlank()) "Seattle" else city
+    val curCity: String = if (city!!.isBlank()) "Dallas" else city
     var unit by remember {
         mutableStateOf("imperial")
     }

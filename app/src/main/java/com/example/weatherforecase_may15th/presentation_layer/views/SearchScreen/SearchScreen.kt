@@ -20,6 +20,7 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
@@ -107,7 +108,7 @@ fun CommonTextField(valueState: MutableState<String>,
                      shape = RoundedCornerShape(15.dp),
                      modifier = Modifier
                          .fillMaxWidth()
-                         .padding(start = 10.dp, end = 10.dp))
+                         .padding(start = 10.dp, end = 10.dp).testTag("textbox"))
 
 
 }
